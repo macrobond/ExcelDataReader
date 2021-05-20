@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-
 using NUnit.Framework;
 
 namespace ExcelDataReader.Tests
@@ -95,7 +94,7 @@ namespace ExcelDataReader.Tests
         }
 
         /*
-        #if !LEGACY
+#if !LEGACY
                 [Test]
                 public void ZipWorker_Extract_Test()
                 {
@@ -127,7 +126,7 @@ namespace ExcelDataReader.Tests
                         return System.IO.Path.GetTempPath();
                     }
                 }
-        #endif
+#endif
         */
 
         [Test]
@@ -410,6 +409,6 @@ namespace ExcelDataReader.Tests
                 Assert.AreEqual("NAME", dataSet.Tables[0].Rows[1][0].ToString());
                 Assert.AreEqual("NAME", dataSet.Tables[0].Rows[1][1].ToString());
             }
-        }
+        }        
     }
 }
