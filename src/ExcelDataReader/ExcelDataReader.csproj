@@ -3,14 +3,14 @@
   <PropertyGroup>
     <Description>Lightweight and fast library written in C# for reading Microsoft Excel files (XLS, XLSX).</Description>
     <AssemblyTitle>ExcelDataReader</AssemblyTitle>
-    <VersionPrefix>3.7.0</VersionPrefix>
+    <VersionPrefix>3.6.2</VersionPrefix>
     <Authors>ExcelDataReader developers</Authors>
     <TargetFrameworks>net20;net45;netstandard1.3;netstandard2.0;netstandard2.1</TargetFrameworks>
     <AssemblyName>ExcelDataReader</AssemblyName>
     <AssemblyOriginatorKeyFile>..\ExcelDataReader.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>ExcelDataReader</PackageId>
+    <PackageId>Abacus.ExcelDataReader</PackageId>
     <PackageTags>excel;xls;xlsx;xlsb</PackageTags>
     <PackageIcon>ExcelDataReader.png</PackageIcon>
     <PackageProjectUrl>https://github.com/ExcelDataReader/ExcelDataReader</PackageProjectUrl>
